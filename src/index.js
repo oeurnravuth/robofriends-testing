@@ -18,7 +18,8 @@ const rootReducers = combineReducers({ requestRobots, searchRobots })
 
 const store = createStore(rootReducers, applyMiddleware(thunkMiddleware, logger))
 
-console.log(happy)
+
+// console.log(happy)
 
 ReactDOM.render(
   <Provider store={store}>
